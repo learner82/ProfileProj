@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8aad1dc3468a40ffa9bab74fb6703f33" Name="Diagram1" ZoomLevel="186">
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.Brokers" Width="1.5" PointX="10.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.Countries" Width="1.5" PointX="5" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.Currencies" Width="1.5" PointX="3" PointY="11.125" IsExpanded="false" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.Customers" Width="1.5" PointX="9.125" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.DailyPerformance" Width="1.875" PointX="0.75" PointY="9.25" IsExpanded="false" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.dtproperties" Width="1.5" PointX="9.5" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.ExternalFeedModels" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.MarketCategory" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.Portfolios" Width="1.5" PointX="3" PointY="9" IsExpanded="false" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.PR_ADDRESS_TYPE" Width="1.5" PointX="7.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.price" Width="1.5" PointX="12.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.Rates" Width="1.5" PointX="12.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.Region" Width="1.5" PointX="2.75" PointY="40.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.sysdiagrams" Width="1.5" PointX="8.375" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.TitleCategory" Width="1.5" PointX="12.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="IMS_LAB_NEWModel.Titles" Width="1.5" PointX="0.875" PointY="10.5" IsExpanded="false" />
+        <AssociationConnector Association="IMS_LAB_NEWModel.fk_Countries_MarketCategory_MCID" ManuallyRouted="false" />
+        <AssociationConnector Association="IMS_LAB_NEWModel.fk_Countries_Region_RG_ID" ManuallyRouted="false" />
+        <AssociationConnector Association="IMS_LAB_NEWModel.FK_Currencies_AmortAccTCode_Titles" ManuallyRouted="false" />
+        <AssociationConnector Association="IMS_LAB_NEWModel.FK_Currencies_ExternalFeedModels" ManuallyRouted="false" />
+        <AssociationConnector Association="IMS_LAB_NEWModel.FK_Currencies_ImpairmentAccTCode_Titles" ManuallyRouted="false" />
+        <AssociationConnector Association="IMS_LAB_NEWModel.FK_Currencies_Titles" ManuallyRouted="false" />
+        <AssociationConnector Association="IMS_LAB_NEWModel.CuPoRel" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
